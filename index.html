@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+/*Here is an HTML script for the Simulator of Return on Investment (ROI) in Solar PV Energy. This form collects essential data for ROI calculations and submits it to a PHP script (calculate.php) for processing./
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar PV ROI Simulator</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <div class="card shadow p-4">
+            <h2 class="text-center text-primary">Solar PV ROI Simulator</h2>
+            <form action="calculate.php" method="POST">
+                
+                <div class="mb-3">
+                    <label class="form-label">💰 Installation Cost ($USD)</label>
+                    <input type="number" class="form-control" name="cost" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">☀️ System Capacity (kW)</label>
+                    <input type="number" class="form-control" name="capacity" step="0.1" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">⚡ Monthly Electricity Consumption (kWh)</label>
+                    <input type="number" class="form-control" name="consumption" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">💵 Electricity Tariff ($/kWh)</label>
+                    <input type="number" class="form-control" name="tariff" step="0.01" required>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">📍 Peak Sun Hours / Day</label>
+                    <input type="number" class="form-control" name="solar_hours" step="0.1" required>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Calculate ROI</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
