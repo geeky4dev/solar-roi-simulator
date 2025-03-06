@@ -34,5 +34,5 @@ Access the project in the browser using http://localhost/your-project-folder.
 Choose a Hosting Provider that supports PHP and MySQL.
 Upload your project files to the server using FTP or cPanel File Manager.
 Ensure that the database (if needed) is correctly set up on the hosting server.
-Access your project via your domain name (e.g., http://yourdomain.com).
+Access your project via your domain name.
 
