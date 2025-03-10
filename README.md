@@ -3,31 +3,26 @@ Develop a web application where users enter data about their solar pv-installati
 Using the following technologies:  
 ✅ Frontend: HTML, CSS, JavaScript (Bootstrap)  
 ✅ Backend: PHP con Apache  
-✅ Server: Apache (local with XAMPP)
+✅ Local Server: Apache (with XAMPP)
+✅ Or Real Web Server
 
-🗂️ Proyect Structure
-📂 solar-roi-simulator/
-├── 📁 public/ (Accesible files, HTML, CSS, JS)
-├── 📁 src/ (PHP code 6 backend logic)
-├── 📁 database/ (Esquema SQL para MySQL)
-├── 📁 assets/ (Images, icons, etc.)
-├── 📄 index.php (Página principal con formulario)
-├── 📄 calculate.php (Lógica para calcular el ROI)
-├── 📄 results.php (Muestra los resultados)
+🗂️ Proyect Structure  
+📂 solar-roi-simulator/  
+├── 📁 public/ (Accesible files, HTML, CSS, JS)  
+├── 📁 src/ (PHP code 6 backend logic)  
+├── 📁 database/ (Esquema SQL para MySQL)  
+├── 📁 assets/ (Images, icons, etc.)  
+├── 📄 index.php (Página principal con formulario)  
+├── 📄 calculate.php (Lógica para calcular el ROI)  
+├── 📄 results.php (Muestra los resultados)  
 
-index.php - Main entry point and user interface of the simulator.
-calculate.php - PHP script that processes user input and performs ROI calculations.
-styles.css - CSS file for styling the user interface.
-scripts.js - Optional JavaScript for additional interactivity or validation.
-database - (If required) MySQL database for storing user data or past calculations.
+Main Functionalities:  
+Input Form: Users will input parameters like system size (in kW), installation cost, energy savings, and other relevant variables.  
+Calculation Logic: The PHP script will calculate the ROI based on user input.  
+Result Display: After the calculation, the results will be displayed to the user, showing ROI, payback period, and energy savings over time.  
+Responsive Design: The UI should adjust properly to different screen sizes for accessibility.  
 
-*** Main Functionalities ***  
-Input Form: Users will input parameters like system size (in kW), installation cost, energy savings, and other relevant variables.
-Calculation Logic: The PHP script will calculate the ROI based on user input.
-Result Display: After the calculation, the results will be displayed to the user, showing ROI, payback period, and energy savings over time.
-Responsive Design: The UI should adjust properly to different screen sizes for accessibility.
-
-*** Steps to Display Results on a Local XAMPP Server or Real Web Server: ***  
+Steps to Display Results on a Local XAMPP Server or Real Web Server: ***  
 1. Set Up XAMPP (Local Server)
 Install XAMPP and start Apache and MySQL.
 Place your project in the htdocs folder of XAMPP.
