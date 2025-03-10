@@ -8,6 +8,7 @@ Using the following technologies:
 ✅ Or Real Web Server
 
 🗂️ Proyect Structure:  
+
 📂 solar-roi-simulator/  
 ├── 📁 public/ (Accesible files, HTML, CSS, JS)  
 ├── 📁 src/ (PHP code 6 backend logic)  
