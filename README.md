@@ -3,7 +3,7 @@ Develop a web application where users enter data about their solar pv-installati
 Using the following technologies:    
 ✅ Frontend: HTML, CSS, JavaScript (Bootstrap)  
 ✅ Backend: PHP con Apache  
-✅ Local Server: Apache (with XAMPP)
+✅ Local Server: Apache (with XAMPP)  
 ✅ Or Real Web Server
 
 🗂️ Proyect Structure  
