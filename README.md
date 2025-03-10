@@ -10,7 +10,7 @@ Using the following technologies:
 🗂️ Proyect Structure:  
 
 📂 solar-roi-simulator/  
-├── 📁 public/ (Accesible files, HTML, CSS, JS)  
+├── 📁 public/ (Accessible files, HTML, CSS, JS)  
 ├── 📁 src/ (PHP code 6 backend logic)  
 ├── 📁 database/ (Esquema SQL para MySQL)  
 ├── 📁 assets/ (Images, icons, etc.)  
