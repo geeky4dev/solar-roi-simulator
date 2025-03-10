@@ -6,12 +6,20 @@ The Solar ROI (Return on Investment) Simulator aims to estimate the potential fi
 The LAMP Stack technology used for this project consists of the following components:  
 
 Linux (Operating System) or Windows
-Apache (Web server)
-MySQL (Database management system)
+Apache (local Web server with XAMPP)
 PHP (Programming language for processing data)
 This stack will provide the necessary infrastructure to host and manage the Solar ROI Simulator, process calculations, and store user inputs.
 
-*** Project Structure ***  
+🗂️ Proyect Structure
+📂 solar-roi-simulator/
+├── 📁 public/ (Accesible files, HTML, CSS, JS)
+├── 📁 src/ (PHP code 6 backend logic)
+├── 📁 database/ (Esquema SQL para MySQL)
+├── 📁 assets/ (Images, icons, etc.)
+├── 📄 index.php (Página principal con formulario)
+├── 📄 calculate.php (Lógica para calcular el ROI)
+├── 📄 results.php (Muestra los resultados)
+
 index.php - Main entry point and user interface of the simulator.
 calculate.php - PHP script that processes user input and performs ROI calculations.
 styles.css - CSS file for styling the user interface.
