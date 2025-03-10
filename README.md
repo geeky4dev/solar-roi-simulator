@@ -1,14 +1,9 @@
-*** Objective of the Simulator ***  
-The Solar ROI (Return on Investment) Simulator aims to estimate the potential financial return of investing in a solar photovoltaic (PV) system. This tool will help users evaluate the costs and benefits of installing solar energy systems based on parameters such as system size, installation cost, energy savings, and other variables.
-
-
-*** Technology to Use for LAMP Stack ***  
-The LAMP Stack technology used for this project consists of the following components:  
-
-Linux (Operating System) or Windows
-Apache (local Web server with XAMPP)
-PHP (Programming language for processing data)
-This stack will provide the necessary infrastructure to host and manage the Solar ROI Simulator, process calculations, and store user inputs.
+# solar-roi-simulator***
+Develop a web application where users enter data about their solar pv-installation and obtain a calculation of the estimated time to recover the investment.
+Using the following technologies:  
+✅ Frontend: HTML, CSS, JavaScript (Bootstrap)  
+✅ Backend: PHP con Apache  
+✅ Server: Apache (local with XAMPP)
 
 🗂️ Proyect Structure
 📂 solar-roi-simulator/
