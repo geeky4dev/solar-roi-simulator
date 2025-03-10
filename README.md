@@ -1,6 +1,7 @@
 # solar-roi-simulator
 Develop a web application where users enter data about their solar pv-installation and obtain a calculation of the estimated time to recover the investment.
-Using the following technologies:    
+Using the following technologies:   
+
 ✅ Frontend: HTML, CSS, JavaScript (Bootstrap)  
 ✅ Backend: PHP con Apache  
 ✅ Local Server: Apache (with XAMPP)  
