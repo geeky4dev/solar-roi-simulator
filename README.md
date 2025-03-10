@@ -7,7 +7,7 @@ Using the following technologies:
 ✅ Local Server: Apache (with XAMPP)  
 ✅ Or Real Web Server
 
-🗂️ Proyect Structure  
+🗂️ Proyect Structure:  
 📂 solar-roi-simulator/  
 ├── 📁 public/ (Accesible files, HTML, CSS, JS)  
 ├── 📁 src/ (PHP code 6 backend logic)  
