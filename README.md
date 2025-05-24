@@ -36,5 +36,10 @@ Upload your project files to the server using FTP or cPanel File Manager.
 Ensure that the database (if needed) is correctly set up on the hosting server.  
 Access your project via your domain name.  
 
+...
+📜 License
+MIT License.
+
+Created by geeky4dev – feel free to fork, contribute, or star 🌟 the project!
 
 
